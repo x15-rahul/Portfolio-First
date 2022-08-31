@@ -93,3 +93,23 @@ h1::after {
     letter-spacing: 1px;
     margin-top: 15px;
 }
+.next-section {
+    position: relative;
+    top: 15%;
+    animation: animation 1s linear  infinite alternate;
+}
+@keyframes animation {
+    0% {
+        top: 15%;
+    }
+    50% {
+        top: 17%;
+    }
+    100% {
+        top: 15%;
+    }
+}
+.next-section i {
+    font-size: 5em;
+    color: var(--white-color);
+}
