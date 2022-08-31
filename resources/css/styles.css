@@ -38,6 +38,10 @@ body {
   line-height: 1.4;
 }
 /* reusable css */
+.padding-horizontal {
+  width: 1180px;
+  margin: auto;
+}
 .btn {
   color: var(--white-color);
   background-color: var(--button-color);
@@ -85,7 +89,8 @@ h6 {
   font-size: 1.6em;
   text-transform: uppercase;
 }
-section, footer {
+section,
+footer {
   padding: 120px 0;
 }
 #process h5,
@@ -104,10 +109,6 @@ section, footer {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
-}
-.padding-horizontal {
-  width: 1280px;
-  margin: 0 auto;
 }
 .hamburger-menu i {
   font-size: 32px;
@@ -165,7 +166,6 @@ h1::after {
 /* about section starts */
 #about {
   padding-bottom: 0;
-  height: 100vh;
 }
 .about-grid-container {
   display: grid;
@@ -233,7 +233,7 @@ h1::after {
   background-position: center;
   background-size: cover;
 }
-.experiece-grid-container {
+.experience-grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0 15px;
@@ -262,7 +262,7 @@ h1::after {
 .work-experience p,
 .education-experience p {
   font-size: 1.6em;
-  width: 480px;
+  width: 90%;
   color: #f5f5f5;
 }
 /* work-experience section ends */
@@ -407,15 +407,15 @@ form textarea::placeholder {
   /* justify-content: center; */
   gap: 0 15px;
 }
-.social-icons  li {
+.social-icons li {
   border-right: 1px solid var(--white-color);
 }
-.social-icons  li a i {
+.social-icons li a i {
   font-size: 2em;
   color: var(--white-color);
   padding-right: 15px;
 }
-.social-icons  li a:hover i {
+.social-icons li a:hover i {
   color: var(--button-color);
 }
 #footer span {
