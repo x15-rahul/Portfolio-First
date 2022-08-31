@@ -85,7 +85,7 @@ h6 {
   font-size: 1.6em;
   text-transform: uppercase;
 }
-section {
+section, footer {
   padding: 120px 0;
 }
 #process h5,
@@ -279,6 +279,7 @@ h1::after {
 }
 .portfolio-grid-item {
   background: var(--button-color);
+  border-radius: 5px;
 }
 .portfolio-grid-item:first-child {
   background: url("/resources/css/images/lw-1.png") no-repeat center / cover;
@@ -331,7 +332,7 @@ h1::after {
 /* contact section starts */
 #contact {
   color: var(--white-color);
-  background: url("/resources/css/images/testimonial.jpg") no-repeat top / cover;
+  background: url("/resources/css/images/contact.jpg") no-repeat center / cover;
 }
 .contact-grid-container {
   display: grid;
@@ -390,5 +391,37 @@ form textarea::placeholder {
   display: block;
   margin-top: 20px;
 }
-
 /* contact section ends */
+
+/* footer section starts */
+#footer {
+  background: #000;
+}
+.footer-flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-icons {
+  display: flex;
+  /* justify-content: center; */
+  gap: 0 15px;
+}
+.social-icons  li {
+  border-right: 1px solid var(--white-color);
+}
+.social-icons  li a i {
+  font-size: 2em;
+  color: var(--white-color);
+  padding-right: 15px;
+}
+.social-icons  li a:hover i {
+  color: var(--button-color);
+}
+#footer span {
+  font-size: 1.6em;
+  color: var(--white-color);
+  display: inline-block;
+  margin-top: 15px;
+}
+/* footer section ends */
