@@ -302,3 +302,27 @@ h1::after {
   background: url('/resources/css/images/lw-7.png') no-repeat center / cover;
 }
 /* portfolio section ends */
+
+/* testimonial section starts */
+#testimonial {
+  background: url('/resources/css/images/testimonial.jpg') no-repeat top / cover;
+}
+.testimonial-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.testimonial-flex-container .quote-logo {
+  width: 45px;
+}
+.testimonial-flex-container  p {
+  width: 460px;
+  font-size: 1.6em;
+  margin: 50px 0;
+}
+.testimonial-flex-container .signature-logo {
+  width: 120px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+/* testimonial section ends */
