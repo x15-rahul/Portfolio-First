@@ -12,8 +12,10 @@
       type="image/x-icon"
     />
     <!-- css files -->
+    <!-- uikit css -->
+    <link rel="stylesheet" href="/vendors/css/uikit.min.css" />
     <link rel="stylesheet" href="/resources/css/styles.css" />
-    <link rel="stylesheet" href="/resources/css/media-queries.css">
+    <link rel="stylesheet" href="/resources/css/media-queries.css" />
     <!-- fontawesome script -->
     <script
       src="https://kit.fontawesome.com/1ed2a1bd44.js"
@@ -31,7 +33,7 @@
             <a href="#"><i class="fa-solid fa-bars"></i></a>
           </div>
         </nav>
-        <div class="title">
+        <div class="title uk-animation-shake">
           <h1>Rahul Biswas</h1>
           <span>#User Experience #Music #Creative Direction</span>
           <div class="next-section">
@@ -46,7 +48,10 @@
     <section id="about">
       <div class="padding-horizontal">
         <div class="about-grid-container">
-          <div class="about-grid-item">
+          <div
+            class="about-grid-item"
+            uk-scrollspy="cls:uk-animation-slide-left"
+          >
             <img src="/resources/images/about.jpg" alt="" />
           </div>
           <div class="about-grid-item">
@@ -78,19 +83,31 @@
         <h2>My Working Process</h2>
         <h5>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</h5>
         <div class="process-grid-container">
-          <div class="process-grid-item">
+          <div
+            class="process-grid-item"
+            uk-scrollspy="cls:uk-animation-slide-left-medium"
+          >
             <i class="fa-solid fa-display"></i>
             <h6>Design</h6>
           </div>
-          <div class="process-grid-item">
+          <div
+            class="process-grid-item"
+            uk-scrollspy="cls:uk-animation-slide-top-medium"
+          >
             <i class="fa-solid fa-code"></i>
             <h6>Development</h6>
           </div>
-          <div class="process-grid-item">
+          <div
+            class="process-grid-item"
+            uk-scrollspy="cls:uk-animation-slide-bottom-medium"
+          >
             <i class="fa-solid fa-gear"></i>
             <h6>Testing</h6>
           </div>
-          <div class="process-grid-item">
+          <div
+            class="process-grid-item"
+            uk-scrollspy="cls:uk-animation-slide-right-medium"
+          >
             <i class="fa-solid fa-rocket"></i>
             <h6>Launch</h6>
           </div>
@@ -157,7 +174,10 @@
       <div class="padding-horizontal">
         <h2>my latest works</h2>
         <h5>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</h5>
-        <div class="portfolio-grid-container">
+        <div
+          class="portfolio-grid-container"
+          uk-scrollspy="cls:uk-animation-scale-up"
+        >
           <div class="portfolio-grid-item"></div>
           <div class="portfolio-grid-item"></div>
           <div class="portfolio-grid-item"></div>
@@ -274,7 +294,10 @@
                 <i class="fa-solid fa-phone"></i>
                 <h3>web</h3>
               </div>
-              <a href="mailto:biswasrahul123@yahoo.com">Mail: quicksayed@gmail.com</a> <br>
+              <a href="mailto:biswasrahul123@yahoo.com"
+                >Mail: quicksayed@gmail.com</a
+              >
+              <br />
               <a href="http://rahulbiswas.xyz">Web: rahulbiswas.xyz</a>
             </div>
           </div>
@@ -287,16 +310,32 @@
     <footer id="footer">
       <div class="padding-horizontal">
         <div class="footer-flex-container">
-          <ul class="social-icons">
-            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+          <ul
+            class="social-icons"
+            uk-scrollspy="cls:uk-animation-slide-bottom-small"
+          >
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-behance"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            </li>
           </ul>
           <span>Copyright: Rahul Biswas, All Rights Reserved.</span>
         </div>
       </div>
     </footer>
     <!-- footer section ends -->
+    <!-- jquery file -->
+    <script src="/vendors/js/jquery-3.6.1.min.js"></script>
+    <!-- uikit scripts -->
+    <script src="/vendors/js/uikit.min.js"></script>
+    <script src="/vendors/js/uikit-icons.min.js"></script>
   </body>
 </html>
