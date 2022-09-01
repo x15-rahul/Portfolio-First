@@ -55,6 +55,8 @@ body {
 }
 .btn:hover {
   background: #fe3954;
+  text-decoration: none;
+  color: var(--white-color);
 }
 h1,
 h2,
