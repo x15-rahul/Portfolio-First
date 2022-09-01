@@ -10,3 +10,15 @@ const swiper = new Swiper(".swiper", {
     nextEl: ".swiper-button-next",
   },
 });
+
+// smooth animation
+$(function () {
+  $(".next-section a, .next-section-button a").on("click", function () {
+    $("html, body").animate(
+      {
+        scrollTop: $($.attr(this, "href")).offset().top,
+      },
+      1000
+    );
+  });
+});
