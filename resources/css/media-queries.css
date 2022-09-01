@@ -43,6 +43,9 @@
     grid-template-columns: 1fr;
     gap: 15px 0;
   }
+  .testimonial-flex-container p {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 576px) {
   .title h1 {
@@ -86,6 +89,8 @@
   }
   .testimonial-flex-container p {
     font-size: 1.2em;
+    width: 70%;
+    
   }
   .contact-grid-item i {
     font-size: 2em;
