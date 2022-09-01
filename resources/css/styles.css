@@ -288,6 +288,32 @@ h1::after {
 #portfolio {
   text-align: center;
 }
+#portfolio h5 {
+  margin-bottom: 20px;
+}
+.button-flex-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.button-flex-container button {
+  width: 150px;
+  padding: 5px;
+  border: 2px solid var(--button-color);
+  border-radius: 5px;
+  background-color: var(--button-color);
+  color: var(--white-color);
+  margin-right: 10px;
+  font-size: 1.6em;
+  font-family: "Raleway-Bold";
+  cursor: pointer;
+}
+.button-flex-container button:hover,
+button.mixitup-control-active {
+  background: #000;
+  border: 2px solid #000;
+}
+
 .portfolio-grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

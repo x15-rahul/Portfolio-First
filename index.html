@@ -174,17 +174,23 @@
       <div class="padding-horizontal">
         <h2>my latest works</h2>
         <h5>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</h5>
+        <div class="button-flex-container">
+          <button type="button" data-filter="all">All</button>
+          <button type="button" data-filter=".wdev">Web Dev</button>
+          <button type="button" data-filter=".wdes">Web Design</button>
+          <button type="button" data-filter=".wp">WordPress</button>
+        </div>
         <div
           class="portfolio-grid-container"
           uk-scrollspy="cls:uk-animation-scale-up"
         >
-          <div class="portfolio-grid-item"></div>
-          <div class="portfolio-grid-item"></div>
-          <div class="portfolio-grid-item"></div>
-          <div class="portfolio-grid-item"></div>
-          <div class="portfolio-grid-item"></div>
-          <div class="portfolio-grid-item"></div>
-          <div class="portfolio-grid-item"></div>
+          <div class="portfolio-grid-item mix wp"></div>
+          <div class="portfolio-grid-item mix wp"></div>
+          <div class="portfolio-grid-item mix wdev"></div>
+          <div class="portfolio-grid-item mix wdes"></div>
+          <div class="portfolio-grid-item mix wdes"></div>
+          <div class="portfolio-grid-item mix wdev"></div>
+          <div class="portfolio-grid-item mix wdev"></div>
         </div>
       </div>
     </section>
@@ -337,5 +343,9 @@
     <!-- uikit scripts -->
     <script src="/vendors/js/uikit.min.js"></script>
     <script src="/vendors/js/uikit-icons.min.js"></script>
+    <!-- mixitup script -->
+    <script src="/vendors/js/mixitup.min.js"></script>
+    <!-- my js -->
+    <script src="/resources/js/scripts.js"></script>
   </body>
 </html>

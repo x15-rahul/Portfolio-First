@@ -74,6 +74,10 @@
   .education-experience p {
     font-size: 1.2em;
   }
+  .button-flex-container {
+    flex-wrap: wrap;
+    gap: 10px 0;
+  }
   .portfolio-grid-container {
     grid-template-columns: 1fr;
   }
