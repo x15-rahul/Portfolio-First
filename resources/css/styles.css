@@ -480,3 +480,9 @@ form textarea::placeholder {
   margin-top: 15px;
 }
 /* footer section ends */
+
+
+/* swiper js */
+.swiper-button-next {
+  color: #000;
+}
